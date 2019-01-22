@@ -2,6 +2,7 @@
 require('./check-versions')()
 
 process.env.NODE_ENV = 'production'
+process.env.BASE_URL = 'localhost:8090'
 
 const ora = require('ora')
 const rm = require('rimraf')
