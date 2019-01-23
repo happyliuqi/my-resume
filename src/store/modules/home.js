@@ -4,7 +4,7 @@ const home = {
     number: 1
   },
   mutations: {
-    [types.SET_NUM](state, num) {
+    [types.SET_NUM] (state, num) {
       state.number = num
     }
   },
@@ -16,4 +16,4 @@ const home = {
   }
 }
 
-export default home;
+export default home
